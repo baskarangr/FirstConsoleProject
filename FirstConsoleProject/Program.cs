@@ -1,14 +1,24 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FirstConsoleProject
 {
-    class Program
+    /// <summary>
+    /// Class Program.
+    /// </summary>
+    internal class Program
     {
-        static void Main(string[] args)
+        /// <summary>
+        /// Adds the specified a.
+        /// </summary>
+        /// <param name="a">a.</param>
+        /// <param name="b">The b.</param>
+        /// <returns>System.Int32.</returns>
+        public int Add(int a, int b)
+        {
+            return a + b;
+        }
+
+        private static void Main(string[] args)
         {
             Console.WriteLine("Welcome to First Console Project");
             Console.Read();
