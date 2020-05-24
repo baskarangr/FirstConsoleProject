@@ -12,6 +12,7 @@ namespace FirstConsoleProject
         {
             Console.WriteLine("Welcome to First Console Project");
             Console.Read();
+            Console.ReadLine();
         }
     }
 }
